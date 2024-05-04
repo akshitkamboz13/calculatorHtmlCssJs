@@ -20,7 +20,10 @@
         </div>
         <div class="calculator-row">
             
-            <button class="operation-key" onclick="appendValue('Math.pow(')">x^</button>
+            <div class="power">
+                <button class="power-key" onclick="appendValue('Math.pow(')">x^</button>
+                <button class="power-comma" onclick="appendValue(',')">,</button>
+            </div>
             <button class="operation-key" onclick="appendValue('Math.sin(')">sin</button>
             <button class="operation-key" onclick="appendValue('Math.cos(')">cos</button>
             <button class="operation-key" onclick="appendValue('Math.tan(')">tan</button>
